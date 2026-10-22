@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" role="img" aria-label="EventSphere event management system preview">
+  <rect width="680" height="380" fill="#0D0F1C"/>
+  <rect x="48" y="28" width="584" height="324" rx="18" fill="#121525" stroke="#262A43"/>
+  <rect x="48" y="28" width="150" height="324" rx="18" fill="#171A2D"/>
+  <circle cx="83" cy="66" r="17" fill="#8B5CF6"/>
+  <path d="M75 66h16M83 58v16" stroke="#9FE7FF" stroke-width="3" stroke-linecap="round"/>
+  <text x="111" y="72" fill="#F2F0FF" font-family="sans-serif" font-size="17" font-weight="700">EventSphere</text>
+  <g fill="#858AAE" font-family="sans-serif" font-size="12"><text x="76" y="125">Dashboard</text><text x="76" y="157">Events</text><text x="76" y="189">Venues</text><text x="76" y="221">Bookings</text><text x="76" y="253">Participants</text></g>
+  <rect x="222" y="52" width="380" height="42" rx="10" fill="#1A1E33"/>
+  <text x="246" y="78" fill="#F2F0FF" font-family="sans-serif" font-size="16" font-weight="700">Welcome back, Admin</text>
+  <rect x="222" y="120" width="112" height="82" rx="12" fill="#211C44"/><rect x="348" y="120" width="112" height="82" rx="12" fill="#193A43"/><rect x="474" y="120" width="128" height="82" rx="12" fill="#40233D"/>
+  <g font-family="sans-serif"><text x="238" y="148" fill="#AFA4FF" font-size="11">UPCOMING EVENTS</text><text x="238" y="180" fill="#FFF" font-size="25" font-weight="700">12</text><text x="364" y="148" fill="#74E3E0" font-size="11">TOTAL BOOKINGS</text><text x="364" y="180" fill="#FFF" font-size="25" font-weight="700">248</text><text x="490" y="148" fill="#FF9CCD" font-size="11">ACTIVE USERS</text><text x="490" y="180" fill="#FFF" font-size="25" font-weight="700">1.8k</text></g>
+  <text x="222" y="240" fill="#F2F0FF" font-family="sans-serif" font-size="15" font-weight="700">Recent events</text>
+  <g fill="#1A1E33"><rect x="222" y="258" width="380" height="22" rx="6"/><rect x="222" y="290" width="310" height="22" rx="6"/></g>
+</svg>

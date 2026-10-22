@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 400" role="img" aria-label="Abstract identity fingerprint artwork">
+  <rect width="340" height="400" fill="#202C32"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M45 210c0-91 56-155 125-155s125 64 125 155c0 42-11 78-29 112" stroke="#5ED6D0" stroke-width="3"/>
+    <path d="M67 226C67 143 111 83 170 83s103 60 103 143c0 39-10 73-27 102" stroke="#F2C14E" stroke-width="2"/>
+    <path d="M89 237c0-73 34-123 81-123s81 50 81 123c0 35-8 62-23 88" stroke="#5ED6D0" stroke-width="3"/>
+    <path d="M111 246c0-58 23-97 59-97s59 39 59 97c0 31-6 53-19 76" stroke="#F4E8D0" stroke-width="2"/>
+    <path d="M134 247c0-43 14-70 36-70s36 27 36 70c0 29-4 47-13 66" stroke="#D95D39" stroke-width="4"/>
+    <path d="M156 246c0-28 5-43 14-43s14 15 14 43c0 23-2 37-6 51" stroke="#5ED6D0" stroke-width="3"/>
+    <path d="M170 46v35M170 319v35M34 200h34M272 200h34" stroke="#F2C14E" stroke-width="2"/>
+    <path d="M76 90 99 113M241 113l23-23M76 310l23-23M241 287l23 23" stroke="#D95D39" stroke-width="2"/>
+  </g>
+  <g fill="#F2C14E">
+    <circle cx="170" cy="46" r="5"/><circle cx="34" cy="200" r="5"/><circle cx="306" cy="200" r="5"/>
+  </g>
+  <path d="M119 350h102" stroke="#5ED6D0" stroke-width="2"/>
+  <text x="170" y="378" text-anchor="middle" fill="#F4E8D0" font-family="monospace" font-size="12" letter-spacing="4">YASIR.R / 001</text>
+</svg>

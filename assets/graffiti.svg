@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 400" role="img" aria-label="Abstract graffiti artwork">
+  <rect width="340" height="400" fill="#676464"/>
+  <path d="M-30 315 370 70" stroke="#F2C14E" stroke-width="42" opacity=".9"/>
+  <path d="M-30 345 370 105" stroke="#D95D39" stroke-width="18"/>
+  <path d="M-15 55 355 300" stroke="#F4E8D0" stroke-width="9" opacity=".8"/>
+  <path d="M18 350c42-86 72-123 112-170 28-33 67-57 116-72" fill="none" stroke="#172A3A" stroke-width="13"/>
+  <path d="M34 350c40-84 70-119 110-166 30-35 67-57 109-70" fill="none" stroke="#F4E8D0" stroke-width="4"/>
+  <g fill="#F2C14E" opacity=".9">
+    <circle cx="42" cy="76" r="5"/><circle cx="68" cy="45" r="3"/><circle cx="295" cy="61" r="5"/>
+    <circle cx="308" cy="92" r="3"/><circle cx="276" cy="334" r="5"/><circle cx="300" cy="315" r="3"/>
+  </g>
+  <text x="170" y="215" text-anchor="middle" fill="#F4E8D0" font-family="sans-serif" font-size="78" font-weight="900" letter-spacing="-6" transform="rotate(-9 170 215)">YR</text>
+  <text x="170" y="246" text-anchor="middle" fill="#172A3A" font-family="sans-serif" font-size="11" font-weight="700" letter-spacing="4">CREATE LOUD</text>
+</svg>
