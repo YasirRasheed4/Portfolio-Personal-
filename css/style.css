@@ -1,4 +1,4 @@
-  :root{
+:root{
     --bg:#0B0B0B;
     --bg2:#141414;
     --card:#1B1B1B;
@@ -372,3 +372,15 @@
   @media(prefers-reduced-motion: reduce){
     *{animation:none !important; transition:none !important;}
   }
+
+  /* Experience: internship entries and filter */
+  .exp-filter-btn{padding:10px 22px; border-radius:999px; border:1px solid var(--border); font-size:13.5px; font-weight:600; cursor:pointer; color:var(--text2); background:transparent; transition:all .3s;}
+  .exp-filter-btn.active{background:linear-gradient(90deg,var(--blue),var(--cyan)); color:#fff; border-color:transparent;}
+  .tl-item.hidden-item{display:none;}
+  .tl-projects{display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:14px; font-size:12.5px; color:var(--text2);}
+  .tl-proj{padding:4px 10px; border-radius:8px; border:1px solid var(--border); color:var(--text); font-size:12px; display:inline-flex; align-items:center; gap:5px; transition:border-color .3s, color .3s;}
+  .tl-proj:hover{border-color:var(--cyan); color:var(--cyan);}
+  .tl-links{display:flex; flex-wrap:wrap; gap:10px; margin-top:16px;}
+  .tl-btn{display:inline-flex; align-items:center; gap:6px; padding:8px 16px; border-radius:999px; border:1px solid var(--border); color:var(--cyan); font-size:12.5px; font-weight:600; transition:all .3s;}
+  .tl-btn:hover{border-color:var(--cyan); transform:translateY(-2px);}
+  .tl-btn:focus-visible, .tl-proj:focus-visible, .exp-filter-btn:focus-visible{outline:2px solid var(--cyan); outline-offset:3px;}

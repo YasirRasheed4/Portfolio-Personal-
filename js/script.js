@@ -104,6 +104,19 @@ window.addEventListener('load', () => {
     });
   });
 
+  const expBtns = document.querySelectorAll('.exp-filter-btn');
+  const expItems = document.querySelectorAll('#experience .tl-item');
+  expBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      expBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.expFilter;
+      expItems.forEach(item => {
+        item.classList.toggle('hidden-item', !(f === 'all' || item.dataset.type === f));
+      });
+    });
+  });
+
   const filterBtns = document.querySelectorAll('.filter-btn');
   const projCards = document.querySelectorAll('.proj-card');
   filterBtns.forEach(btn => {
@@ -225,8 +238,13 @@ window.addEventListener('load', () => {
   modal.addEventListener('click', (e) => { if(e.target === modal) modal.classList.remove('open'); });
 
   document.querySelectorAll('.proj-card').forEach(card => {
-    card.addEventListener('click', () => {
+    card.addEventListener('click', (e) => {
       const d = caseData[card.dataset.case];
+      if (!d) {
+        const link = card.querySelector('.project-link');
+        if (link && !e.target.closest('a')) window.open(link.href, '_blank', 'noopener');
+        return;
+      }
       modalBody.innerHTML = `
         <div class="mp-cat">${d.cat}</div>
         <h3>${d.title}</h3>
